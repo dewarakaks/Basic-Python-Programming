@@ -1,0 +1,7 @@
+#format function()
+a = input("enter your first name: ")
+b = input("enter your middle name: ")
+c = input("enter yout last name: ")
+print("your first name is {} and your last name is {}.".format(a,b,c))
+print("your first name is {0} and your last name is {2}.".format(a,b,c))
+print("your first name is {1} and your last name is {0}.".format(a,b,c))
