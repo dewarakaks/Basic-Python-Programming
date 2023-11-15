@@ -1,6 +1,6 @@
 #or conditions
-x = 2001
-if x < 1990 or x > 1999:
-    print('you were not born in 90s')
+x = 70
+if x < 80 or x > 90:
+    print('yours grade is not in 80')
 else:
-    print(f'your number is {x}')
+    print(f'yours grade is {x}')
